@@ -1,0 +1,19 @@
+.calegories {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.category {
+  border: 2px solid #fff;
+  border-radius: 1000px;
+  padding: 5px 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.category:hover {
+  transform: scale(0.95);
+  background-color: #fff;
+  color: #000;
+}

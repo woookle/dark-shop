@@ -1,0 +1,30 @@
+.order {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid #ffffff62;
+  padding: 5px;
+}
+.image__title {
+  display: flex;
+  align-items: center;
+}
+.image {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+.price {
+  font-weight: bold;
+  margin-top: 5px;
+}
+.delete {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.delete:hover {
+  transform: scale(1.1);
+}
